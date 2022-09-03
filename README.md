@@ -29,6 +29,7 @@ Karena banyaknya mobil bekas yang diminati, terdapat sejumlah platform pada *web
 *Machine learning* memiliki kemampuan untuk mempelajari berbagai data transaksi sebelumnya dan akan menghasilkan sebuah model yang dapat digunakan oleh perusahaan seperti syarah.com. Dengan adanya *machine learning*, diharapkan harga akan semakin kompetitif di pasaran jual-beli mobil bekas. Alasan lain mengapa dibutuhkannya *tools* ini karena tidak semua calon penjual mengerti tentang spesifikasi yang dimiliki mobil mereka. Jika mereka (penjual) menjual dengan harga yang tinggi, maka mobilnya akan menjadi sulit terjual. Begitu juga sebaliknya jika harga jual terlalu rendah, maka keuntungan yang didapat semakin kecil. Belum lagi syarah.com juga ambil bagian dari hasil transaksi penjualan mobil yang terjadi. Pada akhirnya *machine learning* diharapkan akan membuat seluruh elemen di dunial jual-beli mobil bekas baik itu perusahaan (syarah.com), calon pembeli maupun calon penjual, akan sama-sama diuntungkan dengan diberikannya harga mobil bekas yang akurat dan kompetitif.
 
 ![gambar arab](https://media.architecturaldigest.in/wp-content/uploads/2019/05/saudi-saudi-arabia-residency-permanent-residence-expats.jpg)
+[Klik Sumber](https://media.architecturaldigest.in/wp-content/uploads/2019/05/saudi-saudi-arabia-residency-permanent-residence-expats.jpg)
 
 ***Problem Statement***
 
@@ -57,20 +58,20 @@ Pada model yang akan dibuat saat pembersihan data *outliers*, hanya data *outlie
 
 1. R-Square:
 <br>
-<br>
 *Metric* ini merepresentasikan berapa persen seluruh *feature* mempengaruhi *target*. Semakin tinggi nilai persentasenya, maka semakin besar pula *feature* mempengaruhi *target*. *Metric* ini hanya akan digunakan saat pemilihan *base* model karena dari tiap model dapat terlihat jelas berapa besar persentase pengaruh *feature* dari tiap model yang mempengaruhi *target*. Karena bentuknya persentase, nilai dari *metric* ini bernilai 0 sampai 1.
+<br>
 
 2. MAE (Mean Absolute Error)
 <br>
-<br>
 *Metric* ini merepresentasikan rata-rata hasil selisih absolut dari hasil prediksi dengan hasil sebenarnya. *Metric* ini dianjurkan karena data yang dipakai adalah data yang memiliki sejumlah *outliers*. Dikarenakan nilai yang absolut, maka *metric* ini tidak mempedulikan selisih yang hasilnya negatif. Semakin kecil nilai *metric* ini semakin baik pula hasil prediksi yang didapat
+<br>
 
 3. MAPE (Mean Absolute Percentage Error)
 <br>
-<br>
 *Metric* ini merepresentasikan rata-rata persentase hasil selisih absolut dari hasil prediksi dengan hasil sebenarnya. Perbedaan dengan MAE, *metric* ini perlu merubah hasil selisih menjadi persentase saja. Karena bentuknya persentase, nilai dari *metric* ini bernilai 0 sampai 1.
+<br>
 
 4. RMSLE (Root Mean Squared Log Error)
 <br>
-<br>
 *Metric* ini digunakan ketika data terlalu *right skewed* dengan variance yang dari kecil hingga sangat besar. Perbedaan variance yang besar dapat diatasi karena perhitungan RMSLE adalah dengan mengubah terlebih dahulu ke skala logaritmik kemudian dirata-ratakan dan diakar. Datasets ini memenuhi syarat-syarat tadi sehingga *metric* ini cocok digunakan untuk hasil evaluasi dari model.
+<br>
