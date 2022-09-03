@@ -73,3 +73,29 @@ Pada model yang akan dibuat saat pembersihan data *outliers*, hanya data *outlie
 
 
 *Metric* ini digunakan ketika data terlalu *right skewed* dengan variance yang dari kecil hingga sangat besar. Perbedaan variance yang besar dapat diatasi karena perhitungan RMSLE adalah dengan mengubah terlebih dahulu ke skala logaritmik kemudian dirata-ratakan dan diakar. Datasets ini memenuhi syarat-syarat tadi sehingga *metric* ini cocok digunakan untuk hasil evaluasi dari model.
+
+### ***2. Data Understanding***
+
+- Deskripsi dari tiap kolom didapat berdasarkan *domain knowledge* yang dipelajari.
+- Dataset merupakan data daftar harga mobil dari syarah.com di Saudi Arabia.
+- Setiap baris data merepresentasikan informasi terkait informasi spesifikasi mobil hingga harga mobil.
+
+**Attributes Information**
+
+| **Attribute** | **Data Type** | **Description** |
+| --- | --- | --- |
+| Type | Object | Merek mobil |
+| Region | Object | Daerah penjualan mobil bekas |
+| Make | Object | Nama perusahaan pembuat mobil |
+| Gear_Type | Object | Tipe gear yang digunakan (Automatic / Manual) |
+| Origin | Object | Negara pengimpor mobil (Gulf / Saudi / Other / Unknown) |
+| Options | Object | Option used (Full Options / Semi-Full / Standard) |
+| Year | Integer | Tahun pembuatan mobil |
+| Engine_Size | Float | Ukuran mesin mobil |
+| Mileage | Integer | Jarak yang sudah ditempuh kendaraan (KM) |
+| Negotiable | Boolean | Jika True, maka harga adalah 0 karena harga ditentukan lewat negosiasi |
+| Price | Integer | Harga mobil bekas (SAR) |
+
+<br>
+
+"Price" akan menjadi label atau *target* kolom yang akan diprediksi (*dependent variable*), kolom lain akan menjadi *predictor* variabel / *independent variable* yang akan memprediksi "Price".
