@@ -144,4 +144,7 @@ Selanjutnya dilakukan *Hyperparameter Tuning* supaya model mendapatkan hasil yan
 2. max_depth : 9
 3. n_estimators : 250
 
-Kemudian kita akan masukkan perubahan parameter tersebut ke model dan mencoba lagi ke data *test*.
+Kemudian kita akan masukkan perubahan parameter tersebut ke model dan mencoba lagi ke data *test*. Hasil model yang didapat sebelum di-*tuning* dan sesudah di-*tuning* adalah sebagai berikut:
+
+![image](https://user-images.githubusercontent.com/107677479/188271420-13125a02-73d9-4a1e-be19-7920f4bc7484.png)
+
