@@ -57,5 +57,5 @@ Hal pertama yang harus dilakukan adalah dengan menganalisis seluruh data supaya 
 Pada model yang akan dibuat saat pembersihan data *outliers*, hanya data *outliers* yang bernilai ekstrem saja yang akan dihapus. Oleh karena itu, data tetap akan memiliki sejumlah *outliers* yang didiamkan. Hal ini membuat pada model ini *metric evaluation* yang akan digunakan adalah *metric-metric* yang tidak sensitif terhadap *outliers*. *Metric* seperti MSE, RMSE, dan RMSPE tidak cocok digunakan pada data ini karena sangat sensitif terhadap data *outliers*. *Metric evaluation* yang akan digunakan adalah:
 
 1. R-Square:
-<br>
+
 *Metric*
