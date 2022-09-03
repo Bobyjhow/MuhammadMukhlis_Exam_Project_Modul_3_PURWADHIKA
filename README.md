@@ -100,4 +100,4 @@ Pada model yang akan dibuat saat pembersihan data *outliers*, hanya data *outlie
 
 "Price" akan menjadi label atau *target* kolom yang akan diprediksi (*dependent variable*), kolom lain akan menjadi *predictor* variabel / *independent variable* yang akan memprediksi "Price".
 
-![Image](D:\Purwadhika\Session Class\Modul 3\Capstone Project Modul 3\Gambar Markdown)
+![Image](D:\Purwadhika\Session Class\Modul 3\Capstone Project Modul 3\Gambar Markdown\Datasets.PNG)
