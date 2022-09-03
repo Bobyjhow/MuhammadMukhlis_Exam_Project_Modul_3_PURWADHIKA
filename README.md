@@ -94,3 +94,11 @@ Pada model yang akan dibuat saat pembersihan data *outliers*, hanya data *outlie
 Pada tahap ini akan dihapus data-data yang duplikat dan *features* yang tidak relevan yaitu kolom "Negotiable" dan kolom "Origin". Selain dual hal tadi, akan dihapus juga data-data yhang sifatnya adalah *extreme outliers*.
 
 ![image](https://user-images.githubusercontent.com/107677479/188270904-435f8db7-70a6-43fb-8b8b-7fa207869abf.png)
+
+#### ***Matrix Correlation***
+
+Tidak lupa juga akan dicek korelasi tiap *features* terhadap variabel *target* "Price"
+![image](https://user-images.githubusercontent.com/107677479/188270966-cd03642d-38d7-4cb1-9dd9-ee51612a80f4.png)
+<br>
+![image](https://user-images.githubusercontent.com/107677479/188270975-fbe6b7ba-d7cf-463c-9dc9-472c206527e4.png)
+
