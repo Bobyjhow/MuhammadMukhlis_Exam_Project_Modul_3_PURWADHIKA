@@ -197,5 +197,10 @@ Berikut adalah rekomendasi yang dapat diberikan supaya model lebih maksimal:
 
 
 Muhammad Mukhlis JC Data Science and Machine Learning
--
+****
+hgfj
+dgf hfgd
+dgfhdgf
+dfghgd
+gfdhgd
  
