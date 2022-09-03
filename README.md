@@ -161,19 +161,19 @@ Setelah mendapatkan model yang maskimal untuk datasets ini dapat disimpulkan bah
     - learning_rate : 0.05
     - max_depth : 9
     - n_estimators : 250<br>
-<br>
+
 2. Dari Pemodelan yang dilakukan, fitur "Year" sangat mempengaruhi harga mobil bekas.
-<br>
+
 3. Dari penghapusan *outlier* yang ekstrem dari 2 kolom, limitasi didapatkan sebagai berikut:
     - Harga maksimal adalah 620000 SAR.
     - Tahun tertua mobil bekas adalah tahun 1978.<br>
-<br>
+
 4. Variabel *target* "Price" yang bernilai 0 tidak digunakan dalam pemodelan karena bersifat negosiasi. Sedangkan dalam *Machine Learning* kita membutuhkan angka yang pasti.
-<br>
+
 5. Berdasarkan Evaluasi Matrix, model ini memiliki error sekitar 14329 SAR (dari MAE) atau sebesar 23% (dari MAPE) prediksi akan melenceng.
-<br>
+
 6. Dari hasil plot dan tabel range price, kita mengetahui sejumlah limitasi model tambahan yakni:
     - Semakin sedikit jumlah merk mobil yang dijajakan, semakin sulit model akan memprediksi harga.
     - Untuk mobil yang sekiranya ingin dijual dibawah 10k SAR, model ini tidak cocok digunakan.
     - Setidaknya dibutuhkan sejumlah merk mobil yang sama supaya harga prediksi bisa akurat. Contohnya kita ambil merk Ghost (di datasets ini hanya 1 buah) dari Rolls-Royce. Jika merk yang sama masuk, harganya akan diprediksi melenceng jauh karena kurangnya data untuk merk mobil Ghost dari Rolls-Royce.
-<br>
+
