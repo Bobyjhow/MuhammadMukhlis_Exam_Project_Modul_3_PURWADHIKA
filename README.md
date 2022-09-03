@@ -98,7 +98,30 @@ Pada tahap ini akan dihapus data-data yang duplikat dan *features* yang tidak re
 #### ***Matrix Correlation***
 
 Tidak lupa juga akan dicek korelasi tiap *features* terhadap variabel *target* "Price"
+
 ![image](https://user-images.githubusercontent.com/107677479/188270966-cd03642d-38d7-4cb1-9dd9-ee51612a80f4.png)
 <br>
 ![image](https://user-images.githubusercontent.com/107677479/188270975-fbe6b7ba-d7cf-463c-9dc9-472c206527e4.png)
+
+#### ***Clean Dataset***
+
+Berikut adalah data yang sudah bersih setelah proses *Data Preprocessing*. Setelah ini, data siap untuk dimasukkan model.
+
+![image](https://user-images.githubusercontent.com/107677479/188271046-14d75ad9-35c0-4ee3-8eb7-dc82bf4048cc.png)
+
+### 4. Modeling
+
+Dalam melakukan *modeling* kita akan menggunakan total 6 jenis model yaitu 3 base model dan 3 ensemble model yang pada akhirnya akan dipilih. Model-model yang akan digunakan adalah sebagai berikut :
+
+Base Model:
+
+1. Linear Regression
+2. KNN Regression
+3. Decision Tree Regression
+
+Ensemble Model:
+
+1. Random Forest Regression
+2. Gradient Boosting Regression
+3. Xtreme Gradient Boosting Regessor
 
