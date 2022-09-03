@@ -179,7 +179,7 @@ Setelah mendapatkan model yang maskimal untuk datasets ini dapat disimpulkan bah
 
 ### 6. ***Recommendation***
 
-Berikut adalah rekomendasi yang dapat diberikan supya model lebih maksimal:
+Berikut adalah rekomendasi yang dapat diberikan supaya model lebih maksimal:
 
 1. Menambah sejumlah *feature* seperti "Perlu Bengkel Telebih Dahulu?", "Garansi Resmi Mobil", "Kondisi Mobil" dll yang secara logika korelasinya sangat besar dalam menentukan harga mobil bekas.
 
@@ -188,3 +188,9 @@ Berikut adalah rekomendasi yang dapat diberikan supya model lebih maksimal:
 3. Penambahan jumlah data perlu diberi perhatian kepada merk mobil yang jumlahnya sedikit dan harganya yang mahal. Sedikitnya jumlah data tersebut sangat mempengaruhi hasil akhir model yang didapat untuk merk mobil yang jumlahnya sedikit.
 
 4. Kedepan model ini perlu dibantu oleh model klasifikasi yang variabel targetnya adalah penjualan yang "menguntungkan atau tidak" berdasarkan nilai harga mobil yang sudah terjual. 
+
+<br>
+<br>
+<br>
+*****
+Muhammad Mukhlis JC Data Science and Machine Learning
