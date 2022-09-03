@@ -57,22 +57,9 @@ Hal pertama yang harus dilakukan adalah dengan menganalisis seluruh data supaya 
 Pada model yang akan dibuat saat pembersihan data *outliers*, hanya data *outliers* yang bernilai ekstrem saja yang akan dihapus. Oleh karena itu, data tetap akan memiliki sejumlah *outliers* yang didiamkan. Hal ini membuat pada model ini *metric evaluation* yang akan digunakan adalah *metric-metric* yang tidak sensitif terhadap *outliers*. *Metric* seperti MSE, RMSE, dan RMSPE tidak cocok digunakan pada data ini karena sangat sensitif terhadap data *outliers*. *Metric evaluation* yang akan digunakan adalah:
 
 1. R-Square:
-
-*Metric* ini merepresentasikan berapa persen seluruh *feature* mempengaruhi *target*. Semakin tinggi nilai persentasenya, maka semakin besar pula *feature* mempengaruhi *target*. *Metric* ini hanya akan digunakan saat pemilihan *base* model karena dari tiap model dapat terlihat jelas berapa besar persentase pengaruh *feature* dari tiap model yang mempengaruhi *target*. Karena bentuknya persentase, nilai dari *metric* ini bernilai 0 sampai 1.
-
 2. MAE (Mean Absolute Error)
-
-*Metric* ini merepresentasikan rata-rata hasil selisih absolut dari hasil prediksi dengan hasil sebenarnya. *Metric* ini dianjurkan karena data yang dipakai adalah data yang memiliki sejumlah *outliers*. Dikarenakan nilai yang absolut, maka *metric* ini tidak mempedulikan selisih yang hasilnya negatif. Semakin kecil nilai *metric* ini semakin baik pula hasil prediksi yang didapat
-
 3. MAPE (Mean Absolute Percentage Error)
-
-
-*Metric* ini merepresentasikan rata-rata persentase hasil selisih absolut dari hasil prediksi dengan hasil sebenarnya. Perbedaan dengan MAE, *metric* ini perlu merubah hasil selisih menjadi persentase saja. Karena bentuknya persentase, nilai dari *metric* ini bernilai 0 sampai 1.
-
 4. RMSLE (Root Mean Squared Log Error)
-
-
-*Metric* ini digunakan ketika data terlalu *right skewed* dengan variance yang dari kecil hingga sangat besar. Perbedaan variance yang besar dapat diatasi karena perhitungan RMSLE adalah dengan mengubah terlebih dahulu ke skala logaritmik kemudian dirata-ratakan dan diakar. Datasets ini memenuhi syarat-syarat tadi sehingga *metric* ini cocok digunakan untuk hasil evaluasi dari model.
 
 ### ***2. Data Understanding***
 
@@ -100,4 +87,5 @@ Pada model yang akan dibuat saat pembersihan data *outliers*, hanya data *outlie
 
 "Price" akan menjadi label atau *target* kolom yang akan diprediksi (*dependent variable*), kolom lain akan menjadi *predictor* variabel / *independent variable* yang akan memprediksi "Price".
 
-![Image](D:\Purwadhika\Session Class\Modul 3\Capstone Project Modul 3\Gambar Markdown\Datasets.PNG)
+![Datasets](https://user-images.githubusercontent.com/107677479/188270650-66c9d222-015e-4f66-9d10-ce6d882f3937.PNG)
+
