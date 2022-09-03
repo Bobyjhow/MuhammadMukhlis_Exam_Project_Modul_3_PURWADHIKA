@@ -89,3 +89,8 @@ Pada model yang akan dibuat saat pembersihan data *outliers*, hanya data *outlie
 
 ![Datasets](https://user-images.githubusercontent.com/107677479/188270650-66c9d222-015e-4f66-9d10-ce6d882f3937.PNG)
 
+### ***3. Data Preprocessing***
+
+Pada tahap ini akan dihapus data-data yang duplikat dan *features* yang tidak relevan yaitu kolom "Negotiable" dan kolom "Origin". Selain dual hal tadi, akan dihapus juga data-data yhang sifatnya adalah *extreme outliers*.
+
+![image](https://user-images.githubusercontent.com/107677479/188270787-1eb8d97a-83d8-4746-b894-969ce7640c02.png)
