@@ -105,7 +105,7 @@ Tidak lupa juga akan dicek korelasi tiap *features* terhadap variabel *target* "
 
 #### ***Clean Dataset***
 
-Berikut adalah data yang sudah bersih setelah proses *Data Preprocessing*. Setelah ini, data siap untuk dimasukkan model.
+Berikut adalah data yang sudah bersih setelah proses *Data Preprocessing*. Setelah ini, data siap untuk dimasukkan ke dalam model.
 
 ![image](https://user-images.githubusercontent.com/107677479/188271046-14d75ad9-35c0-4ee3-8eb7-dc82bf4048cc.png)
 
@@ -125,3 +125,23 @@ Ensemble Model:
 2. Gradient Boosting Regression
 3. Xtreme Gradient Boosting Regessor
 
+Sebelum dimasukkan ke dalam model, data akan di-*encoding* jika terdapat *features* yang tipenya adalah kategorikal. Dalam proses *encoding*, project ini menggunakan dua tipe *encoding* yaitu:
+
+1. One Hot Encoder
+2. Binary Encoder
+
+Setelah di*encode* hasil dari tiap model yang digunakan adalah sebagai berikut:
+
+![image](https://user-images.githubusercontent.com/107677479/188271183-37a1cc81-996f-4a5b-bb4b-98b282da0ce9.png)
+
+Hasil yang terpilih adalah model Extreme Gradient Boosting. Selanjutnya model akan dimasukkan ke data *test* dan berikut adalah hasilnya:
+
+![image](https://user-images.githubusercontent.com/107677479/188271287-b2855b90-47db-4eab-87ec-6340733680d1.png)
+
+Selanjutnya dilakukan *Hyperparameter Tuning* supaya model mendapatkan hasil yang maksimal. Dari berbagai parameter yang di*tuning*, didapatkan hasil *tuning* terbaik dengan merubah parameter bawaan yaitu :
+
+1. learning_rate : 0.05
+2. max_depth : 9
+3. n_estimators : 250
+
+Kemudian kita akan masukkan perubahan parameter tersebut ke model dan mencoba lagi ke data *test*.
