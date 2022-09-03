@@ -177,3 +177,14 @@ Setelah mendapatkan model yang maskimal untuk datasets ini dapat disimpulkan bah
     - Untuk mobil yang sekiranya ingin dijual dibawah 10k SAR, model ini tidak cocok digunakan.
     - Setidaknya dibutuhkan sejumlah merk mobil yang sama supaya harga prediksi bisa akurat. Contohnya kita ambil merk Ghost (di datasets ini hanya 1 buah) dari Rolls-Royce. Jika merk yang sama masuk, harganya akan diprediksi melenceng jauh karena kurangnya data untuk merk mobil Ghost dari Rolls-Royce.
 
+### 6. ***Recommendation***
+
+Berikut adalah rekomendasi yang dapat diberikan supya model lebih maksimal:
+
+1. Menambah sejumlah *feature* seperti "Perlu Bengkel Telebih Dahulu?", "Garansi Resmi Mobil", "Kondisi Mobil" dll yang secara logika korelasinya sangat besar dalam menentukan harga mobil bekas.
+
+2. Mengingat jumlah data yang sangat sedikit setelah menjadi data yang bersih (sekitar 3 ribuan), diperlukan adanya penambahan data supaya model bisa memprediksi secara akurat.
+
+3. Penambahan jumlah data perlu diberi perhatian kepada merk mobil yang jumlahnya sedikit dan harganya yang mahal. Sedikitnya jumlah data tersebut sangat mempengaruhi hasil akhir model yang didapat untuk merk mobil yang jumlahnya sedikit.
+
+4. Kedepan model ini perlu dibantu oleh model klasifikasi yang variabel targetnya adalah penjualan yang "menguntungkan atau tidak" berdasarkan nilai harga mobil yang sudah terjual. 
